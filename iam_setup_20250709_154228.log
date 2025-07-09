@@ -1,0 +1,47 @@
+================ AWS IAM Setup Started at Wed Jul  9 15:42:28 WCAST 2025 ======================
+AWS CLI configured properly and good to go
+Creating IAM users...
+ Created user : devops_kurunmi
+ Created user : devops_kako
+ Created user : devops_eniobanke
+ Created user : devops_gbola
+ Created user : devops_adiamoh
+Creating IAM group 'admin'...
+ Created group: admin
+Attaching policy 'arn:aws:iam::aws:policy/AdministratorAccess' to 'admin'...
+Attached policy
+Adding users to 'admin'...
+Added devops_kurunmi to admin
+Added devops_kako to admin
+Added devops_eniobanke to admin
+Added devops_gbola to admin
+Added devops_adiamoh to admin
+Verifying setup...
+Users created:
+Group memberships:
+-------------------
+|ListGroupsForUser|
++-----------------+
+|  admin          |
++-----------------+
+-------------------
+|ListGroupsForUser|
++-----------------+
+|  admin          |
++-----------------+
+-------------------
+|ListGroupsForUser|
++-----------------+
+|  admin          |
++-----------------+
+-------------------
+|ListGroupsForUser|
++-----------------+
+|  admin          |
++-----------------+
+-------------------
+|ListGroupsForUser|
++-----------------+
+|  admin          |
++-----------------+
+========== Setup completed. Log saved to iam_setup_20250709_154228.log ============

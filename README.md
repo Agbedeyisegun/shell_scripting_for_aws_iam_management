@@ -80,3 +80,25 @@ Screenshot of the terminal showing the script run and how successful it is with 
 - Step 2
 link to the log file for the script file below:
 "aws-iam-manager.sh"
+
+
+
+
+- Step 3 
+Screenshot of the terminal showing the script creation of the arrays of users to be created by the script. With this below users "devops_kako" "devops_eniobanke" "devops_gbola" "devops_adiamoh". Also using "if" statement to to iterate through the arrays and create the users menetioned.
+![arrays created with if statement](img\step3-array-of-the-user-overview.jpg)
+
+
+
+
+
+- Step 4 
+Screenshot of the terminal showing the script creation of the group called "admin" attached a policy called "arn:aws:iam::aws:policy/AdministratorAccess"
+ with "if" statement then attached it to the this below users "devops_kako" "devops_eniobanke" "devops_gbola" "devops_adiamoh" to the "admin" group.
+![policy created and added to group](img\step4-create-admin-add-access-add-users.jpg)
+
+
+
+- Step 5 
+Screenshot of the terminal showing the script verifying all the necessary resources if they are properly created, and the all the functions was called with the "main" as the main function for all the functions. below are the functions:  "init_logging", "verify_aws_cli", "create_users", "create_group", "attach_policy", "add_users_to_group", "verify_setup".
+![functions called](img\step5-verify-call-functions.jpg)

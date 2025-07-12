@@ -1,4 +1,4 @@
-#   Capstone Project Bash Scripting for Multiplication Table 
+#   Shell Scripting for AWS IAM Management Project 
 
 
 ## Readme URL Below: 
